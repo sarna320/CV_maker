@@ -1,3 +1,6 @@
+# Architecture
+![Alt text](architecture.png)
+# Setup
 1. Clone repository
 ```sh
 git clone https://github.com/sarna320/CV_maker

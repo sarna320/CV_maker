@@ -9,7 +9,7 @@ import json
 from langchain_openai import ChatOpenAI
 from tool import create_example_messages
 from utility import extract_secret
-
+import shutil
 
 class JobOffer(BaseModel):
     """Information about a job offer."""
@@ -167,6 +167,7 @@ class ExtractingAgent:
         )
         self.runnable = self.prompt | self.llm.with_structured_output(schema=JobOffer)
         self.path = ""
+        self.path_job_information = ""
 
     def extract_job_offer(self, html_data: str, messages):
         print("[INFO] Extracting Agent working")
@@ -222,8 +223,10 @@ class ExtractingAgent:
         response = self.extract_job_offer(html_data, messages)
         self.path = self.create_directories(response)
         self.save_job_listing(html_data, self.path )
+        shutil.move("./job_listing.html", self.path)
         self.save_job_information(response, url, self.path )
-        print(f"JSON data saved to {os.path.join(self.path , 'job_information.json')}")
+        self.path_job_information = os.path.join(self.path , 'job_information.json')
+        print(f"JSON data saved to {self.path_job_information}")
 
 
 if __name__ == "__main__":
