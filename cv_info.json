@@ -1,0 +1,153 @@
+{
+    "about_me": {
+        "name": "Jan",
+        "surname": "Kowalski",
+        "job_title": "Full Stack Developer",
+        "description": "Programista z wieloletnim doświadczeniem w tworzeniu aplikacji webowych i mobilnych. Specjalizuję się w tworzeniu skalowalnych aplikacji, optymalizacji procesów oraz automatyzacji zadań. Z pasją podchodzę do uczenia się nowych technologii i rozwiązywania problemów programistycznych.",
+        "phone_number": "+48 123 456 789",
+        "email": "jan.kowalski@example.com",
+        "address": "Warszawa, Polska",
+        "github": "https://github.com/jankowalski"
+    },
+    "experience": [
+        {
+            "company": "TechCorp",
+            "position": "Senior Full Stack Developer",
+            "description": "Odpowiedzialny za rozwój i utrzymanie aplikacji webowych, zarządzanie zespołem programistów oraz wdrażanie nowych technologii w firmie.",
+            "start_date": "2020-01-01",
+            "end_date": "2021-12-31"
+        },
+        {
+            "company": "WebSoft Solutions",
+            "position": "Frontend Developer",
+            "description": "Tworzenie interfejsów użytkownika dla aplikacji webowych przy użyciu React oraz współpraca z zespołem backendowym w zakresie integracji API.",
+            "start_date": "2018-05-01",
+            "end_date": "2019-10-31"
+        },
+        {
+            "company": "CodeFactory",
+            "position": "Junior Software Engineer",
+            "description": "Tworzenie i optymalizacja aplikacji mobilnych oraz rozwój nowych funkcji w istniejących systemach.",
+            "start_date": "2015-02-15",
+            "end_date": "2017-08-20"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Resource Management System",
+            "technology": [
+                "Python",
+                "Django",
+                "PostgreSQL"
+            ],
+            "description": "System do zarządzania zasobami firmy, integrujący różne narzędzia analityczne i generujący raporty w czasie rzeczywistym."
+        },
+        {
+            "name": "Real-Time Data Monitoring",
+            "technology": [
+                "React",
+                "Node.js",
+                "WebSocket"
+            ],
+            "description": "Aplikacja webowa do monitorowania danych w czasie rzeczywistym, z zaawansowanymi mechanizmami filtrowania i analizy."
+        },
+        {
+            "name": "E-commerce Platform",
+            "technology": [
+                "Java",
+                "Spring Boot",
+                "MySQL"
+            ],
+            "description": "Rozwój i wdrożenie platformy e-commerce z systemem zarządzania produktami, zamówieniami i płatnościami."
+        },
+        {
+            "name": "AI-Powered Customer Support Chatbot",
+            "technology": [
+                "Python",
+                "TensorFlow",
+                "Natural Language Processing (NLP)"
+            ],
+            "description": "Zbudowanie chatbota opartego na AI, który automatycznie obsługuje zapytania klientów, korzystając z analizy języka naturalnego oraz modeli głębokiego uczenia."
+        },
+        {
+            "name": "Image Classification with Deep Learning",
+            "technology": [
+                "Python",
+                "Keras",
+                "Convolutional Neural Networks (CNN)"
+            ],
+            "description": "Aplikacja do automatycznej klasyfikacji obrazów za pomocą sieci konwolucyjnych, używana do analizy danych obrazowych w celu rozpoznawania obiektów."
+        },
+        {
+            "name": "Recommendation System for E-commerce",
+            "technology": [
+                "Python",
+                "Scikit-learn",
+                "Collaborative Filtering",
+                "Machine Learning"
+            ],
+            "description": "Stworzenie systemu rekomendacji produktów dla platformy e-commerce, wykorzystującego algorytmy filtracji kolaboracyjnej i uczenia maszynowego."
+        }
+    ],
+    "education": [
+        {
+            "start_date": "2012-10-01",
+            "end_date": "2017-06-30",
+            "field_of_study": "Informatyka",
+            "university": "Politechnika Warszawska"
+        },
+        {
+            "start_date": "2010-10-01",
+            "end_date": "2012-06-30",
+            "field_of_study": "Matematyka stosowana",
+            "university": "Uniwersytet Warszawski"
+        }
+    ],
+    "skills": [
+        "JavaScript",
+        "Python",
+        "React",
+        "Node.js",
+        "Django",
+        "Spring Boot",
+        "SQL",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "REST API",
+        "WebSocket",
+        "CI/CD",
+        "Agile/Scrum",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "TensorFlow",
+        "Keras"
+    ],
+    "courses": [
+        {
+            "name": "Python: 100 Days of Code: The Complete Python Pro Bootcamp",
+            "institution": "Udemy",
+            "completion_date": "2021-06-01"
+        },
+        {
+            "name": "Google Data Analytics Professional Certificate",
+            "institution": "Coursera",
+            "completion_date": "2020-12-15"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Polski",
+            "level": "Native"
+        },
+        {
+            "language": "Angielski",
+            "level": "C1"
+        },
+        {
+            "language": "Niemiecki",
+            "level": "B2"
+        }
+    ]
+}
