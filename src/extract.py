@@ -166,6 +166,7 @@ class ExtractingAgent:
             api_key=api_key,
         )
         self.runnable = self.prompt | self.llm.with_structured_output(schema=JobOffer)
+        self.path = ""
 
     def extract_job_offer(self, html_data: str, messages):
         print("[INFO] Extracting Agent working")
@@ -219,10 +220,10 @@ class ExtractingAgent:
         html_data = self.url_data(url)
         messages = create_example_messages(examples)
         response = self.extract_job_offer(html_data, messages)
-        path = self.create_directories(response)
-        self.save_job_listing(html_data, path)
-        self.save_job_information(response, url, path)
-        print(f"JSON data saved to {os.path.join(path, 'job_information.json')}")
+        self.path = self.create_directories(response)
+        self.save_job_listing(html_data, self.path )
+        self.save_job_information(response, url, self.path )
+        print(f"JSON data saved to {os.path.join(self.path , 'job_information.json')}")
 
 
 if __name__ == "__main__":
